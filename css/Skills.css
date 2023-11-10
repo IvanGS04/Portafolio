@@ -134,7 +134,7 @@ footer .redes a{
 
 
 .skills{
-    background-color: #252A2E;
+    background-image: url(../img/fonfoSkills.jpg);
     color: #fff;
     padding: 50px 20px;
 }
@@ -211,29 +211,29 @@ footer .redes a{
     100%{width: 90%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .office{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s office forwards;
 }
-@keyframes photoshop {
+@keyframes office {
     0%{width: 0%;}
     100%{width: 90%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .cmasmas{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s cmasmas forwards;
 }
-@keyframes wordpress {
+@keyframes cmasmas {
     0%{width: 0%;}
     100%{width: 81%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .ccharp{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s ccharp forwards;
 }
-@keyframes drupal {
+@keyframes ccharp {
     0%{width: 0%;}
     100%{width: 55%;}
 }
@@ -253,7 +253,7 @@ footer .redes a{
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .creatividad{
