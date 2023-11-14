@@ -14,10 +14,15 @@ function efectoHabilidades(){
         habilidades[2].classList.add("office");
         habilidades[3].classList.add("cmasmas");
         habilidades[4].classList.add("ccharp");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
+        habilidades[5].classList.add("javaB");
+        habilidades[6].classList.add("phy");
+        habilidades[7].classList.add("css");
+        habilidades[8].classList.add("comunicacion");
+        habilidades[9].classList.add("trabajo");
+        habilidades[10].classList.add("creatividad");
+        habilidades[11].classList.add("dedicacion");
+       
+
     }
 }
 

@@ -238,6 +238,34 @@ footer .redes a{
     100%{width: 55%;}
 }
 
+
+.skills .skill .javaB{
+    width: 0%;
+    animation: 2s javaB forwards;
+}
+@keyframes javaB {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+
+.skills .skill .phy{
+    width: 0%;
+    animation: 2s phy forwards;
+}
+@keyframes phy {
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
 .skills .skill .comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;
@@ -271,7 +299,7 @@ footer .redes a{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .proyect{
