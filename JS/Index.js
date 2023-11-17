@@ -18,5 +18,4 @@ function efectoHabilidades() {
         document.getElementById("scharp").classList.add("barra-progreso5");
         document.getElementById("ph").classList.add("barra-progreso6");
     }
-
 }
