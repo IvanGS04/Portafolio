@@ -23,90 +23,138 @@ footer .redes a{
     transition: .3s;
 }
 
+/* Importación de fuentes de google fonts */ 
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
-.contacto{
-    background-image: url(../img/fondoContacto.jpg);
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 0;
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url(../img/fonfoSkills.jpg);
 }
-.contacto .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
 }
-.contacto h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #3a1c33; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
 }
-.contacto .fila{
-    display: flex;
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
 }
-.contacto .col{
-    width: 50%;
-    padding: 10px;
-    position: relative;
+
+
+label{
+  display: block; 
+  float: center;  
 }
-.contacto .col input, .contacto .col textarea{
-    display: block;
-    width: 100%;
-    padding: 18px;
-    border: none;
-    margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
-    font-size: 18px;
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #3f1c37; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
 }
-.contacto button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
+
+
+button p{
+  color: #fff; 
 }
-.contacto button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
+
+
+span{
+  color: #ab4493; 
 }
-.contacto button:hover .overlay{
-    width: 100%;
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
 }
-.contacto .col img{
-    width: 100%;
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #3b1c34;
 }
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-swidth: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
 }
-.contacto .col .info ul{
-    list-style: none;
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
 }
-.contacto .col .info ul li{
-    margin-bottom: 20px;
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
 }
-.contacto .col .info ul li i{
-    color: #1CB698;
-    display: inline-block;
-    margin-right: 20px;
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
 }
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
 
 *{
     padding: 0;
