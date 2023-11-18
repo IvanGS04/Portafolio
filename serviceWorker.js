@@ -1,7 +1,7 @@
 const nombreCache = "PORTAFOLIO WEB";
 const archivosCache = [
     "/",
-    "Index.html",
+    "index.html",
     "SobreMi.html",
     "Habilidades.html",
     "Proyectos.html",

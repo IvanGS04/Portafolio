@@ -1,7 +1,7 @@
 {
     "name": "PWA Portafolio Personal",
     "short_name": "PWA IAGS",
-    "start_url": "Index.html",
+    "start_url": "index.html",
     "description": "PWA de mi portafolio personal",
     "display": "standalone",
     "orientation": "portrait",
