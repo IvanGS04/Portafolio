@@ -27,135 +27,102 @@ footer .redes a{
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 
 
-body{
-  height: 100%; 
+body {
+  height: 100%;
   font-family: 'Noto Sans', sans-serif;
   background-image: url(../img/fonfoSkills.jpg);
 }
 
-
-.contact_form{  
-  width: 460px; 
-  height: auto;
+.contact_form {
+  width: 90%; /* Cambiado el ancho del formulario */
+  max-width: 500px; /* Agregado un ancho máximo para evitar que se vea muy ancho en pantallas grandes */
   margin: 80px auto;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
+  border-radius: 10px;
+  padding: 30px; /* Simplificado padding */
+  background-color: #fbfbfb;
 }
 
-
-input{
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #3a1c33; 
-  margin-top: 10px;  
+input,
+textarea {
+  width: 100%; /* Cambiado el ancho a 100% para que se ajuste al ancho del formulario */
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
   padding-left: 10px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
-
-textarea{
-  background-color: #fbfbfb; 
-  width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
+textarea {
+  height: 150px;
+  padding-top: 15px;
 }
 
-
-label{
-  display: block; 
-  float: center;  
+label {
+  display: block;
+  margin-bottom: 5px; /* Añadido espacio inferior */
 }
 
-
-button{
-  height: 45px; 
-  padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 20px; 
-  margin-top: 10px;   
+button {
+  width: 100%; /* Cambiado el ancho a 100% */
+  height: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
-  background-color: #3f1c37; 
-  border-color: #ab4493; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
+  background-color: #3f1c37;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
   cursor: pointer;
 }
 
-
-button p{
-  color: #fff; 
+button p {
+  color: #fff;
 }
 
-
-span{
-  color: #ab4493; 
+span {
+  color: #ab4493;
 }
 
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
 }
 
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
-  padding-bottom: 20px; 
+h1 {
+  font-size: 39px;
+  text-align: left;
+  padding-bottom: 20px;
   color: #3b1c34;
 }
 
-h2{
+h2 {
   color: #dfc;
 }
 
-
-h3{
-  font-size: 16px; 
+h3 {
+  font-size: 16px;
   padding-bottom: 30px;
-  color: #0e0e0e;   
+  color: #0e0e0e;
 }
 
-
-p{
-  font-size: 14px; 
-  color: #0e0e0e; 
+p {
+  font-size: 14px;
+  color: #0e0e0e;
 }
-
 
 ::-webkit-input-placeholder {
- color: #a8a8a8;
+  color: #a8a8a8;
 }
-
 
 ::-webkit-textarea-placeholder {
- color: #a8a8a8;
+  color: #a8a8a8;
 }
 
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: 0;
   border: 1px solid #97d848;
 }
 
