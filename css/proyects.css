@@ -160,17 +160,19 @@ footer .redes a{
     color: white; 
     text-align: justify;
   }
-
+  
   .card {
-    height: 220px; /* Puedes ajustar la altura según tus necesidades */
+    height: auto; /* Cambiado a "auto" para que la altura se ajuste automáticamente */
+    max-width: 500px; /* Puedes ajustar el ancho máximo según tus necesidades */
+    margin: 20px; /* Añadido margen para mejorar la apariencia en dispositivos más pequeños */
   }
-
+  
   .card-body {
     height: 100%; /* Asegura que el cuerpo de la tarjeta ocupe toda la altura disponible */
   }
-
+  
   .card-img {
-    max-width: 500px;
+    max-width: 100%; /* Cambiado a 100% para que la imagen sea completamente receptiva */
     height: auto; /* Esto asegura que la altura se ajuste automáticamente al cambiar el ancho */
   }
 

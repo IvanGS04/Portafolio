@@ -1,4 +1,4 @@
-const nombreCache = "PORTAFOLIO WEB";
+const nombreCache = "PORTAFOLIO WEB-2";
 const archivosCache = [
     "/",
     "index.html",
