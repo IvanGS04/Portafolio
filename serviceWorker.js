@@ -12,7 +12,8 @@ const archivosCache = [
     "css/proyects.css",
     "css/contacto.css",
     "JS/Index.js",
-    "JS/app.js"
+    "JS/app.js",
+    "CV.pdf"
 ]
 
 self.addEventListener('install', e => {

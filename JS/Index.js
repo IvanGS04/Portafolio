@@ -19,3 +19,15 @@ function efectoHabilidades() {
         document.getElementById("ph").classList.add("barra-progreso6");
     }
 }
+
+// Función para abrir el popup
+function abrirPopup() {
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+}
+
+// Función para cerrar el popup
+function cerrarPopup() {
+    document.getElementById("popup").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
